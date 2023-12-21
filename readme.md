@@ -1,11 +1,14 @@
 Baselinker.com connector
 =====================
 
+> [!NOTE]
+> This is a fork of religisaci/baselinker. I will happily provide pull requests when I am able to get hold of @religisaci.
+
 API connector of the baselinker API: https://api.baselinker.com/index.php
 
 ## Installation
 ```bash
-composer require religisaci/baselinker
+composer require proclame/baselinker
 ```
 
 ## Example Usage

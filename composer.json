@@ -1,5 +1,5 @@
 {
-	"name": "religisaci/baselinker",
+	"name": "proclame/baselinker",
 	"description": "Simply connector to api.baselinker.com",
 	"type": "library",
 	"keywords": ["baselinker"],
@@ -9,6 +9,11 @@
 			"name": "Libor  Šebek",
 			"email": "libor.sebek@religis.cz",
 			"homepage": "https://www.religis.cz",
+			"role": "Developer"
+		},
+		{
+			"name": "Nick Mispoulier",
+			"email": "nick@proclame.be",
 			"role": "Developer"
 		}
 	],
