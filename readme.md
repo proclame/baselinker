@@ -3,12 +3,24 @@ Baselinker.com connector
 
 > [!NOTE]
 > This is a fork of religisaci/baselinker. I will happily provide pull requests when I am able to get hold of @religisaci.
+> You can use this fork by using VCS repository:
+> ```
+> "repositories": [
+>     {
+>         "type": "vcs",
+>         "url": "https://github.com/proclame/baselinker"
+>     }
+> ],
+> "require": {
+>     "religisaci/baselinker": "dev-main"
+> }
+> ```
 
 API connector of the baselinker API: https://api.baselinker.com/index.php
 
 ## Installation
 ```bash
-composer require proclame/baselinker
+composer require religisaci/baselinker
 ```
 
 ## Example Usage
