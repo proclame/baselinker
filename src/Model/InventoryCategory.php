@@ -11,9 +11,11 @@ class InventoryCategory
 
 	public  function getData(): array
 	{
-		$data = [
-			'inventory_id' => $this->inventory_id,
-		];
+        $data = [];
+        if(isset($this->inventory_id))
+        {
+            $data['inventory_id'] = $this->inventory_id;
+        }
 		if(isset($this->category_id))
 		{
 			$data['category_id'] = $this->category_id;
